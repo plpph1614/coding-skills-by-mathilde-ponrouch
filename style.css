@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background-color:#ffe5e3;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color:#6D071A;
+  /*background-color: green;
+  width: 50vw;*/
+}
+
+h2 {
+  color:#A76A75;
+}
+
+p, a {
+  font-family: 'Overpass', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Chivo', sans-serif;
+}
+
+.card-white {
+  background-color: #FFFAFA;
+  width: 75%;
+  border-radius: 7px;
+  box-shadow: 4px 3px 9px 2px black;
+  margin: 24px auto;
+  text-align: center;
+  padding: 24px;
+}
+
+#avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.btn-blue {
+  background-color:#A76A75;
+  color: white;
+  border: 1px #A76A75;
+  padding: 16px 16px;
+  font-weight: bold;
+  border-radius: 7px;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  transition: 1s;
+}
+
+.btn-blue:hover {
+  background-color: white;
+  color: blue;
+  transition: 1s;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline a {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 48px;
+}
+
+.list-inline a:hover {
+  color: rgba(0, 0, 0, 1.0);
+  font-size: 56px;
+  transition: 1s;
+}
+
+.list-inline {
+  padding: 0;
+}
+
